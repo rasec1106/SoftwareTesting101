@@ -24,6 +24,8 @@ class CalculadoraTest {
     public void multiplicar() {
         assertTrue(Calculadora.multiplicar(3,8) == 24);
     }
+    
+    @Test
     public void multiplicarPorMenos1(){
         assertFalse(Calculadora.multiplicar(3,-1) == 3);
     }
