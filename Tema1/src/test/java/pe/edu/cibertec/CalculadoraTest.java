@@ -10,6 +10,8 @@ class CalculadoraTest {
         System.out.println("Sumando dos numeros positivos");
         assertEquals(9, Calculadora.sumar(4,5));
     }
+    
+    @Test
     public void sumarNegativos() {
         System.out.println("Sumando dos numeros negativos");
         assertEquals(-9, Calculadora.sumar(-4,-5));
@@ -24,7 +26,7 @@ class CalculadoraTest {
     public void multiplicar() {
         assertTrue(Calculadora.multiplicar(3,8) == 24);
     }
-    
+
     @Test
     public void multiplicarPorMenos1(){
         assertFalse(Calculadora.multiplicar(3,-1) == 3);
