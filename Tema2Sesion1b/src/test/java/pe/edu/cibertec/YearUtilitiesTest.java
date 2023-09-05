@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class YearUtilitiesTest {
-    
+
     @Test
     public void test1() {
         assertTrue(YearUtilities.isLeap(4)); // is Leap
@@ -28,5 +28,9 @@ class YearUtilitiesTest {
     @Test
     public void test6() {
         assertTrue(YearUtilities.isLeap(2016));// is Leap
+    }
+    @Test
+    public void test7() {
+        assertFalse(YearUtilities.isLeap(1000));// is NOT Leap
     }
 }
