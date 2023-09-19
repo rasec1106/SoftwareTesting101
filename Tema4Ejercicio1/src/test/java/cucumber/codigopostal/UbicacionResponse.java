@@ -4,7 +4,7 @@ public class UbicacionResponse {
     public static final String PAIS = "'country'"; // we use this to navigate through the json
     public static final String UBICACION = "'places'[0].'place name'"; // I need to go to the place name in the Json response
 }
-/**
+/*
  * THIS IS THE JSON RESPONSE
  *
  * {
