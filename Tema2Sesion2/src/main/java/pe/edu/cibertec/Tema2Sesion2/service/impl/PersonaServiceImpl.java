@@ -1,4 +1,4 @@
-package pe.edu.cibertec.Tema2Sesion2.impl;
+package pe.edu.cibertec.Tema2Sesion2.service.impl;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
